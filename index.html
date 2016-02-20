@@ -28,8 +28,6 @@ var uf_vars = {"strength_indicator":"Strength indicator","very_weak":"Very weak"
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://d.theme20.com/remix/wp-content/plugins/bwp-minify/cache/minify-b1-themepunchboxext-0f0769bab30c00fcd3dfaf9c18f9ddee.js'></script>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://d.theme20.com/remix/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://d.theme20.com/remix/wp-includes/wlwmanifest.xml" /> 
 
 <link rel='canonical' href='http://d.theme20.com/remix/' />
 <link rel='shortlink' href='http://d.theme20.com/remix/' />
@@ -121,8 +119,7 @@ var uf_vars = {"strength_indicator":"Strength indicator","very_weak":"Very weak"
 			});
 		</script>
 		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
-<link rel="shortcut icon" href="image2.png" />
-<link rel="apple-touch-icon" href="http://d.theme20.com/remix/wp-content/uploads/2014/12/apple-touch-icon.png">
+<link rel="shortcut icon" href="/image/image2.png" />
 				<meta name="description" content="Remix Music, Band, Club, Party, Dance, Electro, Artist, Event Wordpress Theme">
 				<meta property="og:description" content="Remix Music, Band, Club, Party, Dance, Electro, Artist, Event Wordpress Theme"/>
 							<meta name="keywords" content="remix, modern, music, event, magazine, artist, song, mp3, audio, player, wordpress, soundmanager2, soundmanager, party, club, dance, artist, themeforest, T20">
@@ -166,9 +163,9 @@ var uf_vars = {"strength_indicator":"Strength indicator","very_weak":"Very weak"
 
 			<div class="headdown my_sticky ">
 				<div class="row clearfix">
-					<div class="logo tt_logo bottomtip" title="Just another WordPress site"><a href="#" rel="home"><img src="/image2.png" alt="REMIX" width="126" height="56"></a></div>
+					<div class="logo tt_logo bottomtip" title="RadarLive"><a href="#" rel="home"><img src="/image/image2.png" alt="RadarLive" width="126" height="56"></a></div>
 					<nav id="mymenu">
-					<ul class="sf-menu res_mode "><li id="menu-item-898" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children current selectedLava"><a href="http://d.theme20.com/remix/">Home<span class="sub">Music is life</span></a>
+					<ul class="sf-menu res_mode "><li id="menu-item-898" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children current selectedLava"><a href="#">Home<span class="sub">Music is life</span></a>
 <ul class="sub-menu">
 	<li id="menu-item-1094" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-452 current_page_item current selectedLava"><a href="#">Example</a></li>
 	<li id="menu-item-1095" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Example<span class="sub">Example</span></a></li>
@@ -617,47 +614,6 @@ var uf_vars = {"strength_indicator":"Strength indicator","very_weak":"Very weak"
         </div>
     </div>
     <div class="clearfix"></div>
-    <script>
-	/* <![CDATA[ */
-		jQuery(function(){
-			ajax_running=0;
-			end_of_ajax=0;
-							jQuery('#T20_wpp_1 .T20_wpp_button a').on('click',function(){
-					ajaxParam = {"post_type":"post","post_status":"publish","posts_per_page":"5","author":"","author_name":"","cat":"","category_name":"","tag":"","tag_id":"","p":"","name":"","page_id":"","pagename":"","post_parent":"","offset":"","order":"","orderby":"","year":"","monthnum":"","w":"","day":"","meta_key":"","meta_value":"","meta_compare":"","multisite":null,"theme":"list","layout":"classic","modern_col":"four_col","ajax_style":"button","button_label":"Load More","button_loader":"http:\/\/d.theme20.com\/remix\/wp-content\/themes\/remix\/images\/loading2.gif","global_query":"0","related_query":"0","related_tag_query":"0","T20_wpp_id":1};
-					ajaxParam['home_url'] = "http://d.theme20.com/remix/";
-					ajaxParam['T20_wpp_id'] = "1";
-					T20_wpp_classic(ajaxParam);
-					return false;
-				});
-
-				jQuery(document).ready(function(){
-					ajaxParamFirst = {"post_type":"post","post_status":"publish","posts_per_page":"5","author":"","author_name":"","cat":"","category_name":"","tag":"","tag_id":"","p":"","name":"","page_id":"","pagename":"","post_parent":"","offset":"","order":"","orderby":"","year":"","monthnum":"","w":"","day":"","meta_key":"","meta_value":"","meta_compare":"","multisite":null,"theme":"list","layout":"classic","modern_col":"four_col","ajax_style":"button","button_label":"Load More","button_loader":"http:\/\/d.theme20.com\/remix\/wp-content\/themes\/remix\/images\/loading2.gif","global_query":"0","related_query":"0","related_tag_query":"0","T20_wpp_id":1};
-					ajaxParamFirst['home_url'] = "http://d.theme20.com/remix/";
-					ajaxParamFirst['T20_wpp_id'] = "1";
-					var item_showedFirst = jQuery('#T20_wpp_'+ajaxParamFirst['T20_wpp_id']+' .T20_wpp_content .ajax-item').length;
-					ajax_running=1;
-					var param1First = { action: 'wp_ajax_query' };
-					var paramFirst = $j.extend({}, param1First, ajaxParamFirst);
-					paramFirst['offset'] = paramFirst['offset']*1 + item_showedFirst*1;
-					$j.ajax({
-						type: "GET",
-						url: ajaxParamFirst['home_url']+"wp-admin/admin-ajax.php",
-						dataType: 'html',
-						data: (paramFirst),
-						success: function(data){
-							if (data=='-11'||data.replace(/(\r\n|\n|\r)/gm,"")=='-11'){
-								$j('#T20_wpp_'+ajaxParamFirst['T20_wpp_id']+' .T20_wpp_button a span').html('No more');
-								$j('#T20_wpp_'+ajaxParamFirst['T20_wpp_id']+' .T20_wpp_button').addClass('T20_no_more');
-								ajax_running=0;
-							}
-						}
-					});
-				});
-					});
-
-				
-	/* ]]&gt; */
-	</script>
 	</div></div>
 		</div> 
 	</div> 
